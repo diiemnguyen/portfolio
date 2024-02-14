@@ -69,7 +69,7 @@
 					<div class="row">
 						<div class="col-md-4">
 							<div class="mu-summary-left">
-								<img src="../img/Capture_office_md.png" height="330" width="auto" alt="Diem Nguyen">
+								<img src="img/diemoffice.PNG" height="300" width="auto" alt="Diem Nguyen">
 							</div>
 						</div>
 						<div class="col-md-8">
@@ -108,15 +108,54 @@
 					</ul>
 					<div class="text-center"><h3>CERTIFICATION</h3></div>
 					<ul>
-						<li><u><a href="certs/UiPath_Certificate_01102024204821069_Pro_Excel_Automation_Modern_Design.pdf" target="_blank">UiPath 01102024204821069 Excel Automation Modern Design</a></u></li>
-						<li><u><a href="certs/UiPath_Certificate_01082024204444867_Pro_Control_Flow_in_Studio.pdf" target="_blank">UiPath 01082024204444867 Control Flow in Studio</a></u></li>
-						<li><u><a href="certs/UiPath_Certificate_01082024180132487_Pro_Variables_Constants_and_Arguments.pdf" target="_blank">UiPath 01082024180132487 Variables Constants and Arguments</a></u></li>
-						<li><u><a href="certs/UiPath_Certificate_12112023210640915_Pro_Build_your_first_process_with_Studio.pdf" target="_blank">UiPath 12112023210640915 Build your first process with Studio</a></u></li>
-						<li><u><a href="certs/UiPath_Certificate_12112023190940356_Pro_Explore_automation_development_with_UiPath_Studio.pdf" target="_blank">UiPath 12112023190940356 Explore automation development</a></u></li>
+						<li><u><a onclick="fixScroll('01102024204821069');" class="cert color">UiPath 01102024204821069 Excel Automation Modern Design</a></u></li>
+						<li><u><a onclick="fixScroll('01082024204444867');" class="cert color">UiPath 01082024204444867 Control Flow in Studio</a></u></li>
+						<li><u><a onclick="fixScroll('01082024180132487');" class="cert color">UiPath 01082024180132487 Variables Constants and Arguments</a></u></li>
+						<li><u><a onclick="fixScroll('12112023210640915');" class="cert color">UiPath 12112023210640915 Build your first process with Studio</a></u></li>
+						<li><u><a onclick="fixScroll('12112023190940356');" class="cert color">UiPath 12112023190940356 Explore automation development</a></u></li>
 
 
 					</ul>
 
+					<style>
+						.cert {
+						}
+						
+						.cert_display {
+							display: none;
+							width: 60%;
+							height: 400px;
+						}
+						
+						#cert_container > embed {
+							width: 500px;
+							height: 380px;
+						}
+					</style>
+
+					<div id="01102024204821069" class="cert_display">
+						<b>01102024204821069</b><br />
+						<embed src="certs/UiPath_Certificate_01102024204821069_Pro_Excel_Automation_Modern_Design.pdf" type="application/pdf"></embed>
+					</div>
+					<div id="01082024204444867" class="cert_display">
+						<b>01082024204444867</b><br />
+						<embed src="certs/UiPath_Certificate_01082024204444867_Pro_Control_Flow_in_Studio.pdf" type="application/pdf"></embed>
+					</div>
+					<div id="01082024180132487" class="cert_display">
+						<b>01082024180132487</b><br />
+						<embed src="certs/UiPath_Certificate_01082024180132487_Pro_Variables_Constants_and_Arguments.pdf" type="application/pdf"></embed>
+					</div>
+					<div id="12112023210640915" class="cert_display">
+						<b>12112023210640915</b><br />
+						<embed src="certs/UiPath_Certificate_12112023210640915_Pro_Build_your_first_process_with_Studio.pdf" type="application/pdf"></embed>
+					</div>
+					<div id="12112023190940356" class="cert_display">
+						<b>12112023190940356</b><br />
+						<embed src="certs/UiPath_Certificate_12112023190940356_Pro_Explore_automation_development_with_UiPath_Studio.pdf" type="application/pdf"></embed>
+					</div>
+					<div id="cert_container" style="width:100%; height:auto;"></div>
+
+					
 				</div>
 			</div>
 		</div>
@@ -360,7 +399,20 @@
 <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
+<script>
+	function fixScroll(id) {
+	var text = document.getElementById(id);
+	const collection = document.getElementsByClassName("cert color");
 
+	document.getElementById("cert_container").innerHTML = text.innerHTML;
+	//collection[0].style.fontWeight = "normal";
+	//collection[1].style.fontWeight = "bold";
+	//text.style.fontWeight="bold";
+
+
+
+}
+</script>
 	
 </body>
 </html>
