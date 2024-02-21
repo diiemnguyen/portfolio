@@ -891,6 +891,10 @@ img{border:none;max-width:100%;}
     .mu-title {
         margin-top:15px;
     }
+	#cert_container > embed {
+		width: 500px;
+		height: auto;
+	}
 }
 @media (max-width: 480px) {
 	.mu-top-slider .mu-top-slider-single .mu-top-slider-content{top:20%;}
@@ -920,6 +924,10 @@ img{border:none;max-width:100%;}
         font-weight: 400;
         margin-top:-35px;
     }
+	#cert_container > embed {
+		width: 470px;
+		height: auto;
+	}
 }
 @media (max-width: 360px) {
 	#mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title{
@@ -967,6 +975,10 @@ img{border:none;max-width:100%;}
     .mu-title {
         margin-top:15px;
     }
+	#cert_container > embed {
+		width: 350px;
+		height: auto;
+	}
 }
 @media (max-width: 320px) {
 	#mu-references .mu-references-area .mu-references-content .mu-references-body .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info{
