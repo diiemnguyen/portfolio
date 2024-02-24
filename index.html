@@ -18,53 +18,6 @@
 <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
-<style>
-	.cert {
-		/*padding-left: 350px;*/
-		/*text-align: left;*/
-		/*display: list-item;*/
-	}
-	a.cert.active {
-		color: red;
-	}
-	a.cert:hover {
-		color: #0000FF;
-	}
-	.cert_display {
-		display: none;
-		width: 60%;
-		height: 400px;
-	}
-	#cert_container > embed {
-		width: 500px;
-		height: 380px;
-	}
-/*
-	a:link {
-		color: #000000;
-	}
-		*/
-	/* unvisited link is black*/
-	/*
-	a:visited {
-		color: #000000;
-	}
-
-		*/
-	/* visited link is black (reverse the color back to black)*/
-	/*
-	a:hover {
-		color: #0000FF;
-	}
-		*/
-	/* mouse over link (blue when mouse over)*/
-	/*
-	a:active {
-		color: #0000FF;
-	}
-		*/
-
-</style>
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -153,38 +106,42 @@
 						<li>San Jose State University,  BS in Computer Science (2010-2014)</li>
 						<li>Evergren Valley College, AS in Business Administration (2008-2010)</li>
 					</ul>
-					<div class="text-center"><h3>CERTIFICATION</h3></div>
-					<ul>
-						<li><u><a onclick="fixScroll('01102024204821069');" class="cert color">UiPath 01102024204821069 Excel Automation Modern Design</a></u></li>
-						<li><u><a onclick="fixScroll('01082024204444867');" class="cert color">UiPath 01082024204444867 Control Flow in Studio</a></u></li>
-						<li><u><a onclick="fixScroll('01082024180132487');" class="cert color">UiPath 01082024180132487 Variables Constants and Arguments</a></u></li>
-						<li><u><a onclick="fixScroll('12112023210640915');" class="cert color">UiPath 12112023210640915 Build your first process with Studio</a></u></li>
-						<li><u><a onclick="fixScroll('12112023190940356');" class="cert color">UiPath 12112023190940356 Explore automation development</a></u></li>
+					<div class="text-center">
+							<h3>CERTIFICATION</h3>
+							<ul id="links">
+								<li><u><a onclick="fixScroll('01102024204821069');" class="cert_link" tabindex="5">UiPath 01102024204821069 Excel Automation Modern Design</a></u></li>
+								<li><u><a onclick="fixScroll('01082024204444867');" class="cert_link" tabindex="4">UiPath 01082024204444867 Control Flow in Studio</a></u></li>
+								<li><u><a onclick="fixScroll('01082024180132487');" class="cert_link" tabindex="3">UiPath 01082024180132487 Variables Constants and Arguments</a></u></li>
+								<li><u><a onclick="fixScroll('12112023210640915');" class="cert_link" tabindex="2">UiPath 12112023210640915 Build your first process with Studio</a></u></li>
+								<li><u><a onclick="fixScroll('12112023190940356');" class="cert_link" tabindex="1">UiPath 12112023190940356 Explore automation development</a></u></li>
 
+							</ul>
 
-					</ul>
+							<br />
+							
+							<div id="01102024204821069" class="cert_display">
+								<b>01102024204821069</b><br />
+								<embed src="certs/UiPath_Certificate_01102024204821069_Pro_Excel_Automation_Modern_Design.pdf" type="application/pdf" width="100%" height="100%"></embed>
+							</div>
+							<div id="01082024204444867" class="cert_display">
+								<b>01082024204444867</b><br />
+								<embed src="certs/UiPath_Certificate_01082024204444867_Pro_Control_Flow_in_Studio.pdf" type="application/pdf" width="100%" height="100%"></embed>
+							</div>
+							<div id="01082024180132487" class="cert_display">
+								<b>01082024180132487</b><br />
+								<embed src="certs/UiPath_Certificate_01082024180132487_Pro_Variables_Constants_and_Arguments.pdf" type="application/pdf" width="100%" height="100%"></embed>
+							</div>
+							<div id="12112023210640915" class="cert_display">
+								<b>12112023210640915</b><br />
+								<embed src="certs/UiPath_Certificate_12112023210640915_Pro_Build_your_first_process_with_Studio.pdf" type="application/pdf" width="100%" height="100%"></embed>
+							</div>
+							<div id="12112023190940356" class="cert_display">
+								<b>12112023190940356</b><br />
+								<embed src="certs/UiPath_Certificate_12112023190940356_Pro_Explore_automation_development_with_UiPath_Studio.pdf" type="application/pdf" width="100%" height="100%"></embed>
+							</div>
+							<div id="cert_container"></div>
 
-					<div id="01102024204821069" class="cert_display">
-						<b>01102024204821069</b><br />
-						<embed src="certs/UiPath_Certificate_01102024204821069_Pro_Excel_Automation_Modern_Design.pdf" type="application/pdf"></embed>
-					</div>
-					<div id="01082024204444867" class="cert_display">
-						<b>01082024204444867</b><br />
-						<embed src="certs/UiPath_Certificate_01082024204444867_Pro_Control_Flow_in_Studio.pdf" type="application/pdf"></embed>
-					</div>
-					<div id="01082024180132487" class="cert_display">
-						<b>01082024180132487</b><br />
-						<embed src="certs/UiPath_Certificate_01082024180132487_Pro_Variables_Constants_and_Arguments.pdf" type="application/pdf"></embed>
-					</div>
-					<div id="12112023210640915" class="cert_display">
-						<b>12112023210640915</b><br />
-						<embed src="certs/UiPath_Certificate_12112023210640915_Pro_Build_your_first_process_with_Studio.pdf" type="application/pdf"></embed>
-					</div>
-					<div id="12112023190940356" class="cert_display">
-						<b>12112023190940356</b><br />
-						<embed src="certs/UiPath_Certificate_12112023190940356_Pro_Explore_automation_development_with_UiPath_Studio.pdf" type="application/pdf"></embed>
-					</div>
-					<div id="cert_container" style="width:100%; height:auto;"></div>
+						</div>
 
 					<!-- click links change to active -->
 					<script>
