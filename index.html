@@ -93,9 +93,6 @@
 	</section>
 
 	<style>
-        
-        
-
 	</style>
 	<!-- EDUCATION -->
 	<section id="mu-education">
@@ -124,7 +121,7 @@
 							</ul>
 
 							<br />
-							
+
 							<div id="01102024204821069" class="cert_display">
 								<b>01102024204821069</b><br />
 								<embed src="certs/UiPath_Certificate_01102024204821069_Pro_Excel_Automation_Modern_Design.pdf" type="application/pdf" width="100%" height="100%"></embed>
@@ -150,7 +147,7 @@
 						</div>
 
 
-						
+
 
 						<!-- click links change to active -->
 						<script>
@@ -388,29 +385,45 @@
 
 
 	<footer id="mu-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="mu-footer-area">
-						<div class="mu-footer-copyright">
-							<p>&copy; Copyright. Designed by <i><a href="http://diemweb.com" target="_blank">diemweb.com</a></i>. All right reserved.</p>
-						</div>
+		<!--
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="mu-footer-area">
+					<div class="mu-footer-copyright">
+
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+		-->
+		<div id="set_footer"></div>
 	</footer>
 
+
+	<script>
+		var myfooter = document.getElementById("set_footer");
+		myfooter.innerHTML = "Copyright &copy; " + new Date().getFullYear()
+			+ " - All Rights Reserved. Designed by "
+			+ "<a href='https://portfolio.diemweb.com' target='_blank' style='text-decoration:underline;'>diemweb.com</a>";
+
+	</script>
+
+
 	<!--
+
 	<script>!function(e,t,r,n,c,a,l){function i(t,r){return r=e.createElement('div'),r.innerHTML='<a href="'+t.replace(/"/g,'&quot;')+'"></a>',r.childNodes[0].getAttribute('href')}function o(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return i(r)}try{for(c=e.getElementsByTagName('a'),l='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(a=c[n]).href.indexOf(l))>-1&&(a.href='mailto:'+o(a.href,t+l.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(a=c[n]).parentNode.replaceChild(e.createTextNode(o(a.getAttribute('data-cfemail'),0)),a)}catch(e){}}catch(e){}}(document);</script>
-	-->
+	   -->
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/slick.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
-	
+
+
+
 
 
 </body>
