@@ -1828,7 +1828,7 @@ a:active {
 	}
 
 	#links {
-		width: 80%;
+		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -1850,8 +1850,8 @@ a:active {
 	}
 
 	#cert_container > embed {
-		width: 90%;
-		height: 270px;
+		width: 98%;
+		height: 340px;
 	}
 }
 
