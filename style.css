@@ -513,6 +513,11 @@ img {
 	width: 100%;
 }
 
+.set_img_profile > img {
+	height: auto;
+	width: auto;
+}
+
 #mu-education {
 	display: inline;
 	float: left;
@@ -1654,7 +1659,7 @@ a:active {
 	.mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
 		padding-top: 26%;
 	}
-
+		
 	#links {
 		width: 60%;
 		margin-left: auto;
