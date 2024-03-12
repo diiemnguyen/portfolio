@@ -1504,6 +1504,23 @@ img {
 	text-align: center;
 }
 
+
+#set_footer {
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	color: #fff;
+}
+
+	#set_footer > a {
+		color: #fff;
+	}
+
+		#set_footer > a:hover {
+			color: #b6ff00;
+		}
+
+
 .mu-footer-social {
 	display: inline;
 	float: left;
