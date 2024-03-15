@@ -1581,6 +1581,9 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
+.show_img_cert {
+	display: none;
+}
 
 .cert_display {
 	display: none;
@@ -2101,6 +2104,11 @@ a:active {
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		
+	}
+
+	.show_img_cert {
+		display: block;
 	}
 
 	.cert_display {
@@ -2113,6 +2121,7 @@ a:active {
 	}
 
 	#cert_container > embed {
+		display: none;
 		width: 100%;
 		height: 270px;
 	}
