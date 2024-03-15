@@ -1659,7 +1659,7 @@ a:active {
 	.mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
 		padding-top: 26%;
 	}
-		
+
 	#links {
 		width: 60%;
 		margin-left: auto;
@@ -2073,6 +2073,21 @@ a:active {
 
 	.mu-title {
 		margin-top: 15px;
+	}
+
+	.set_img_profile {
+		max-width: 80px !important;
+	}
+
+	.mu-summary-right {
+		padding-left: 0px;
+	}
+
+	.text-left > h2 {
+		margin-left: -60px;
+	}
+	.mu-summary-right > p {
+		margin-left: -60px;
 	}
 
 	#links {
