@@ -513,7 +513,17 @@ img {
 	width: 100%;
 }
 
+.set_img_profile {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  width: 100%;             /* Adjust container width as needed */
+  height: 100vh;           /* Full viewport height for vertical centering */
+}
+
 .set_img_profile > img {
+	max-width: 245px;
+    max-height: auto;
 	height: auto;
 	width: auto;
 }
