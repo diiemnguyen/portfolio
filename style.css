@@ -37,11 +37,6 @@ h2 {
 	margin: 0;
 }
 
-img {
-	border: none;
-	max-width: 100%;
-}
-
 .mu-readmore-btn {
 	background-color: #fff;
 	font-family: "Open Sans",sans-serif;
@@ -521,7 +516,7 @@ img {
   height: 100vh;           /* Full viewport height for vertical centering */
 }
 
-.set_img_profile > img {
+.set_img_profile  img {
 	max-width: 245px;
     max-height: auto;
 	height: auto;
