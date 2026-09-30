@@ -513,7 +513,7 @@ h2 {
   justify-content: center; /* Centers horizontally */
   align-items: center;     /* Centers vertically */
   width: 100%;             /* Adjust container width as needed */
-  height: 100vh;           /* Full viewport height for vertical centering */
+  height: auto;           /* Full viewport height for vertical centering */
 }
 
 .set_img_profile  img {
