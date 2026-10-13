@@ -1784,6 +1784,12 @@ a:active {
 		width: 100%;
 		height: 340px;
 	}
+
+	.set_img_profile  img {
+		max-width: 180px;
+		border-radius: 50%;
+  		object-fit: cover; /* Keeps the aspect ratio from stretching */
+	}
 }
 
 @media (max-width: 640px) {
